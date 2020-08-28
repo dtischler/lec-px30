@@ -8,9 +8,10 @@ DEPENDS = "bison-native rkbin"
 
 SRC_URI = " \
     git://github.com/u-boot/u-boot \
-    file://lec-px30.patch \
+    file://0000-rockchip-add-support-for-px30.patch \
+    file://0001-lec-px30.patch \
 "
-SRCREV = "v2020.04"
+SRCREV = "v2019.10"
 
 S = "${WORKDIR}/git"
 
