@@ -1,4 +1,4 @@
 SANITY_VERSION 1
-TMPDIR /home/david/balena-lec-px30/build/tmp
-SSTATE_DIR /home/david/balena-lec-px30/build/sstate-cache
+TMPDIR /home/david/Downloads/lec-px30/build/tmp
+SSTATE_DIR /home/david/Downloads/lec-px30/build/sstate-cache
 NATIVELSBSTRING ubuntu-18.04

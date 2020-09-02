@@ -11,5 +11,4 @@ Resin specific images available:
 	resin-image-flasher
 
 LEC-PX30 (NEW)                           : $ MACHINE=lec-px30 bitbake resin-image-flasher
-NanoPC-T4 (NEW)                          : $ MACHINE=nanopc-t4 bitbake resin-image-flasher
 
