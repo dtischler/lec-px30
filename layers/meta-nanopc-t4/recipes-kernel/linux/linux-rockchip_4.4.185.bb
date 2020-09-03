@@ -6,10 +6,10 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/files/4.4.185:"
 LINUX_VERSION = "4.4.185"
 
 SRC_URI = " \
-    git:///github.com/rockchip-linux/kernel;protocol=https;branch=develop-4.4 \
+    git://github.com/rockchip-linux/kernel.git;branch=develop-4.4 \
     file://adjust_wireless_firmware_path.patch \
 "
-SRCREV = "01ef8ae642cc732dcff9ced02ac168eec7b2b83e"
+SRCREV = "e83084b53d4e02f5fd25aad25b42ffd3108c7f15"
 
 require recipes-kernel/linux/linux-yocto.inc
 
@@ -33,4 +33,4 @@ SRC_URI += " \
 "
 
 # Comment the below line to mount file system from eMMC
-# SRC_URI += "file://0008-Modified-Boot-Arguments-to-mount-fileystem-from-SD-c.patch"
+# SRC_URI += "file://0008-Modified-Boot-Arguments-to-mount-fileystem-from-SD-c.patch")"
