@@ -22,7 +22,7 @@ KCONFIG_MODE="--alldefconfig"
 COMPATIBLE_MACHINE = "(lec-px30)"
 
 SRC_URI += " \
-        file://lec-px30_config \
+        file://defconfig \
         file://0001-Device-tree-for-LEC-PX30-A2.patch \
         file://0002-Added-ethernet-driver-support-for-LEC-PX30-A2.patch \
         file://0003-Added-mcp25xxfd-driver-support-for-LEC-PX30-A2.patch \
