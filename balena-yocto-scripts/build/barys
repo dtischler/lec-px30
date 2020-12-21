@@ -484,7 +484,7 @@ else
         fi
         log "Run build for $machine: MACHINE=$machine bitbake $IMAGE $BITBAKEARGS"
         log "This might take a while ..."
-        env MACHINE=$machine bitbake ${IMAGE} $BITBAKEARGS -c clean
+        env MACHINE=$machine bitbake ${IMAGE} $BITBAKEARGS
         if [ $? -eq 0 ]; then
           log "Build for $machine suceeded."
         else
